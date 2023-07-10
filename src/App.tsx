@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  const url = "http://localhost:3000/agreements/rentout/pdf";
+  const url = "192.168.1.2:3000/agreements/rentout/pdf";
   const info = {
     owner: {
       name: "Janusz",
